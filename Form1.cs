@@ -74,7 +74,6 @@ namespace Praktikum23Mei
             prevID = dtPemain.Rows[0]["PlayerID"].ToString();
             prevTeam = dtPemain.Rows[0]["Team"].ToString();
             prevNum = Convert.ToInt32(dtPemain.Rows[0]["Number"]);
-            MessageBox.Show(prevNum.ToString());
             isiDataPemain(0);
         }
 
